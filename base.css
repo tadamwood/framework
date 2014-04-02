@@ -1,0 +1,95 @@
+/***********************
+
+RESPONSIVE FRAMEWORK BASE CSS
+
+***********************/
+
+html, body {
+	margin:0;
+	padding:0;
+}
+
+
+
+/***********************
+
+MEDIA QUERIES 
+
+***********************/
+
+
+
+/***********************
+SCREEN 1024px or BIGGER
+***********************/
+@media only screen and (min-width:1024px;) {
+
+	#container {
+		width: 960px;
+		height: auto;
+		margin:25px auto 25px auto;
+	}
+}
+
+
+/***********************
+SCREEN 768px - 960px
+***********************/
+@media only screen and (min-width:768px;) and (max-width:960px) {
+	
+}
+
+
+/***********************
+SCREEN 480px - 768px
+***********************/
+@media only screen and (min-width:480px;) and (max-width:768px) {
+	
+}
+
+
+/***********************
+SCREEN 480px or SMALLER
+***********************/
+@media only screen and (max-width:480px) {
+	
+}
+
+/***********************
+
+GENERAL CSS
+
+***********************/
+
+
+/***********************
+TYPOGRAPHY
+***********************/
+
+h1 {
+	font-family: verdana;
+	font-size: 45px;
+	font-weight: 500;
+}
+
+h2 {
+	font-family: verdana;
+	font-size: 35px;
+}
+
+h3 {
+	font-family: times;
+	font-size: 25px;
+}
+
+h4 {
+	font-family: times;
+	font-size: 15px;
+}
+
+#container p {
+	font-family: times;
+	font-size: 12px;
+}
+
+
